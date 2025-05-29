@@ -111,6 +111,7 @@ header {
 .pageLayout {
   display: grid;
   grid-template-columns: 270px 1fr;
+  padding-bottom: 32px;
 }
 
 .asideMenu {
@@ -280,12 +281,17 @@ footer {
 }
 
 .weRecomend {
-  padding: 48px 0 32px;
+  padding: 48px 0 0;
   &__title {
     font-size: 24px;
     margin-bottom: 16px;
     font-style: italic;
     text-align: center;
     padding: 16px;
+  }
+  &__products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
   }
 }
