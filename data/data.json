@@ -1,192 +1,402 @@
 [
-    {
-        "id": 36172,
-        "name": "Rocket ball",
-        "price": 10,
-        "category": "foil_balls",
-        "imgUrl": "/img/foil_balls/foil_balls_rocket.png",
-        "productCode": 36172
-    },{
-        "id": 48350,
-        "name": "Alien ball",
-        "price": 10,
-        "category": "foil_balls",
-        "imgUrl": "/img/foil_balls/foil_balls_alien.png",
-        "productCode": 48350
-    },{
-        "id": 19745,
-        "name": "Colorful cake ball",
-        "price": 10,
-        "category": "foil_balls",
-        "imgUrl": "/img/foil_balls/foil_balls_colorful_cake.png",
-        "productCode": 19745
-    },{
-        "id": 71904,
-        "name": "Gold star ball",
-        "price": 10,
-        "category": "foil_balls",
-        "imgUrl": "/img/foil_balls/foil_balls_gold_star.png",
-        "productCode": 71904
-    },{
-        "id": 18269,
-        "name": "Pink star ball",
-        "price": 10,
-        "category": "foil_balls",
-        "imgUrl": "/img/foil_balls/foil_balls_pink_star.png",
-        "productCode": 18269
-    },{
-        "id": 30487,
-        "name": "Red car ball",
-        "price": 10,
-        "category": "foil_balls",
-        "imgUrl": "/img/foil_balls/foil_balls_red_car.png",
-        "productCode": 30487
-    },{
-        "id": 95012,
-        "name": "Transparent star ball",
-        "price": 10,
-        "category": "foil_balls",
-        "imgUrl": "/img/foil_balls/foil_balls_transparent_star.png",
-        "productCode": 95012
-    },{
-        "id": 46081,
-        "name": "Transparent star ball",
-        "price": 10,
-        "category": "foil_balls",
-        "imgUrl": "/img/foil_balls/foil_balls_white_star.png",
-        "productCode": 46081
-    },{
-        "id": 28406,
-        "name": "Gold ball",
-        "price": 10,
-        "category": "gel_balls",
-        "imgUrl": "/img/gel_balls/gel_balls_gold.png",
-        "productCode": 28406
-    },{
-        "id": 53890,
-        "name": "Transparent ball with gold dots",
-        "price": 10,
-        "category": "gel_balls",
-        "imgUrl": "/img/gel_balls/gel_balls_gold_dots.png",
-        "productCode": 53890
-    },{
-        "id": 67215,
-        "name": "Gel balls pack 1",
-        "price": 10,
-        "category": "gel_balls",
-        "imgUrl": "/img/gel_balls/gel_balls_pack1.png",
-        "productCode": 67215
-    },{
-        "id": 15078,
-        "name": "Gel balls pack 2",
-        "price": 10,
-        "category": "gel_balls",
-        "imgUrl": "/img/gel_balls/gel_balls_pack2.png",
-        "productCode": 15078
-    },{
-        "id": 87031,
-        "name": "Gel balls pack 3",
-        "price": 10,
-        "category": "gel_balls",
-        "imgUrl": "/img/gel_balls/gel_balls_pack3.png",
-        "productCode": 87031
-    },{
-        "id": 42936,
-        "name": "Gel balls pack 4",
-        "price": 10,
-        "category": "gel_balls",
-        "imgUrl": "/img/gel_balls/gel_balls_pack4.png",
-        "productCode": 42936
-    },{
-        "id": 20518,
-        "name": "Gel balls pack 5",
-        "price": 10,
-        "category": "gel_balls",
-        "imgUrl": "/img/gel_balls/gel_balls_pack5.png",
-        "productCode": 20518
-    },{
-        "id": 39167,
-        "name": "Gel balls pack 6",
-        "price": 10,
-        "category": "gel_balls",
-        "imgUrl": "/img/gel_balls/gel_balls_pack6.png",
-        "productCode": 39167
-    },{
-        "id": 74890,
-        "name": "Gel balls pack 7",
-        "price": 10,
-        "category": "gel_balls",
-        "imgUrl": "/img/gel_balls/gel_balls_pack7.png",
-        "productCode": 74890
-    },{
-        "id": 56014,
-        "name": "Gel balls pack 8",
-        "price": 10,
-        "category": "gel_balls",
-        "imgUrl": "/img/gel_balls/gel_balls_pack8.png",
-        "productCode": 56014
-    },{
-        "id": 84712,
-        "name": "Pink ball",
-        "price": 10,
-        "category": "gel_balls",
-        "imgUrl": "/img/gel_balls/gel_balls_pink.png",
-        "productCode": 84712
-    },{
-        "id": 60391,
-        "name": "Printed balloons pack 1",
-        "price": 10,
-        "category": "printed_balloons",
-        "imgUrl": "/img/printed_balloons/printed_balloons_pack1.png",
-        "productCode": 60391
-    },{
-        "id": 19428,
-        "name": "Printed balloons pack 2",
-        "price": 10,
-        "category": "printed_balloons",
-        "imgUrl": "/img/printed_balloons/printed_balloons_pack2.png",
-        "productCode": 19428
-    },{
-        "id": 37206,
-        "name": "Printed balloons pack 3",
-        "price": 10,
-        "category": "printed_balloons",
-        "imgUrl": "/img/printed_balloons/printed_balloons_pack3.png",
-        "productCode": 37206
-    },{
-        "id": 96240,
-        "name": "Printed balloons pack 4",
-        "price": 10,
-        "category": "printed_balloons",
-        "imgUrl": "/img/printed_balloons/printed_balloons_pack4.png",
-        "productCode": 96240
-    },{
-        "id": 71358,
-        "name": "Shaped balloons pack 1",
-        "price": 10,
-        "category": "shaped_balloons",
-        "imgUrl": "/img/shaped_balloons/shaped_balloons_foil_balls_pack1.png",
-        "productCode": 71358
-    },{
-        "id": 85902,
-        "name": "Shaped balloons pack 2",
-        "price": 10,
-        "category": "shaped_balloons",
-        "imgUrl": "/img/shaped_balloons/shaped_balloons_foil_balls_pack2.png",
-        "productCode": 85902
-    },{
-        "id": 18764,
-        "name": "Crema bear 1",
-        "price": 10,
-        "category": "soft_toys",
-        "imgUrl": "/img/soft_toys/soft_toys_crema_bear1.png",
-        "productCode": 18764
-    },{
-        "id": 23059,
-        "name": "Crema bear 2",
-        "price": 10,
-        "category": "soft_toys",
-        "imgUrl": "/img/soft_toys/soft_toys_crema_bear2.png",
-        "productCode": 23059
-    }
+  {
+    "id": 36172,
+    "name": "Rocket ball",
+    "price": 10,
+    "category": "foil_balls",
+    "imgUrl": "/img/foil_balls/foil_balls_rocket.png",
+    "productCode": 36172
+  },
+  {
+    "id": 10953,
+    "name": "Cat",
+    "price": 10.2,
+    "category": "foil_balls",
+    "imgUrl": "/img/foil_balls/foil_balls_cat.png",
+    "productCode": 10953
+  },
+  {
+    "id": 60124,
+    "name": "Fish",
+    "price": 10.2,
+    "category": "foil_balls",
+    "imgUrl": "/img/foil_balls/foil_balls_fish.png",
+    "productCode": 60124
+  },
+  {
+    "id": 39086,
+    "name": "Unicorn 1",
+    "price": 10.2,
+    "category": "new",
+    "imgUrl": "/img/foil_balls/foil_balls_unicorn.png",
+    "productCode": 39086
+  },
+  {
+    "id": 98431,
+    "name": "Unicorn 2",
+    "price": 10.2,
+    "category": "new",
+    "imgUrl": "/img/foil_balls/foil_balls_unicorn2.png",
+    "productCode": 98431
+  },
+  {
+    "id": 87604,
+    "name": "Love pack",
+    "price": 12,
+    "category": "foil_balls",
+    "imgUrl": "/img/foil_balls/foil_balls_love_pack.png",
+    "productCode": 87604
+  },
+  {
+    "id": 45192,
+    "name": "Rainbow",
+    "price": 12,
+    "category": "foil_balls",
+    "imgUrl": "/img/foil_balls/foil_balls_rainbow.png",
+    "productCode": 45192
+  },
+  {
+    "id": 50314,
+    "name": "Foil balls pack 1",
+    "price": 12,
+    "category": "foil_balls",
+    "imgUrl": "/img/foil_balls/foil_balls_pack1.png",
+    "productCode": 50314
+  },
+  {
+    "id": 60984,
+    "name": "Heart",
+    "price": 12,
+    "category": "foil_balls",
+    "imgUrl": "/img/foil_balls/foil_balls_heart.png",
+    "productCode": 60984
+  },
+  {
+    "id": 48350,
+    "name": "Alien ball",
+    "price": 10,
+    "category": "foil_balls",
+    "imgUrl": "/img/foil_balls/foil_balls_alien.png",
+    "productCode": 48350
+  },
+  {
+    "id": 19745,
+    "name": "Colorful cake ball",
+    "price": 10,
+    "category": "foil_balls",
+    "imgUrl": "/img/foil_balls/foil_balls_colorful_cake.png",
+    "productCode": 19745
+  },
+  {
+    "id": 71904,
+    "name": "Gold star ball",
+    "price": 10,
+    "category": "foil_balls",
+    "imgUrl": "/img/foil_balls/foil_balls_gold_star.png",
+    "productCode": 71904
+  },
+  {
+    "id": 71904,
+    "name": "Gold star ball",
+    "price": 10,
+    "category": "popular",
+    "imgUrl": "/img/foil_balls/foil_balls_gold_star.png",
+    "productCode": 71904
+  },
+  {
+    "id": 18269,
+    "name": "Pink star ball",
+    "price": 10,
+    "category": "foil_balls",
+    "imgUrl": "/img/foil_balls/foil_balls_pink_star.png",
+    "productCode": 18269
+  },
+  {
+    "id": 30487,
+    "name": "Red car ball",
+    "price": 10,
+    "category": "foil_balls",
+    "imgUrl": "/img/foil_balls/foil_balls_red_car.png",
+    "productCode": 30487
+  },
+  {
+    "id": 95012,
+    "name": "Transparent star ball",
+    "price": 10,
+    "category": "foil_balls",
+    "imgUrl": "/img/foil_balls/foil_balls_transparent_star.png",
+    "productCode": 95012
+  },
+  {
+    "id": 46081,
+    "name": "Transparent star ball",
+    "price": 10,
+    "category": "foil_balls",
+    "imgUrl": "/img/foil_balls/foil_balls_white_star.png",
+    "productCode": 46081
+  },
+  {
+    "id": 28406,
+    "name": "Gold ball",
+    "price": 10,
+    "category": "gel_balls",
+    "imgUrl": "/img/gel_balls/gel_balls_gold.png",
+    "productCode": 28406
+  },
+  {
+    "id": 28406,
+    "name": "Gold ball",
+    "price": 10,
+    "category": "popular",
+    "imgUrl": "/img/gel_balls/gel_balls_gold.png",
+    "productCode": 28406
+  },
+  {
+    "id": 53890,
+    "name": "Transparent ball with gold dots",
+    "price": 10,
+    "category": "gel_balls",
+    "imgUrl": "/img/gel_balls/gel_balls_gold_dots.png",
+    "productCode": 53890
+  },
+  {
+    "id": 67215,
+    "name": "Gel balls pack 1",
+    "price": 10,
+    "category": "gel_balls",
+    "imgUrl": "/img/gel_balls/gel_balls_pack1.png",
+    "productCode": 67215
+  },
+  {
+    "id": 15078,
+    "name": "Gel balls pack 2",
+    "price": 10,
+    "category": "gel_balls",
+    "imgUrl": "/img/gel_balls/gel_balls_pack2.png",
+    "productCode": 15078
+  },
+  {
+    "id": 87031,
+    "name": "Gel balls pack 3",
+    "price": 10,
+    "category": "gel_balls",
+    "imgUrl": "/img/gel_balls/gel_balls_pack3.png",
+    "productCode": 87031
+  },
+  {
+    "id": 42936,
+    "name": "Gel balls pack 4",
+    "price": 10,
+    "category": "gel_balls",
+    "imgUrl": "/img/gel_balls/gel_balls_pack4.png",
+    "productCode": 42936
+  },
+  {
+    "id": 20518,
+    "name": "Gel balls pack 5",
+    "price": 10,
+    "category": "gel_balls",
+    "imgUrl": "/img/gel_balls/gel_balls_pack5.png",
+    "productCode": 20518
+  },
+  {
+    "id": 39167,
+    "name": "Gel balls pack 6",
+    "price": 10,
+    "category": "gel_balls",
+    "imgUrl": "/img/gel_balls/gel_balls_pack6.png",
+    "productCode": 39167
+  },
+  {
+    "id": 74890,
+    "name": "Gel balls pack 7",
+    "price": 10,
+    "category": "gel_balls",
+    "imgUrl": "/img/gel_balls/gel_balls_pack7.png",
+    "productCode": 74890
+  },
+  {
+    "id": 56014,
+    "name": "Gel balls pack 8",
+    "price": 10,
+    "category": "gel_balls",
+    "imgUrl": "/img/gel_balls/gel_balls_pack8.png",
+    "productCode": 56014
+  },
+  {
+    "id": 28579,
+    "name": "Gel balls pack 9",
+    "price": 10,
+    "category": "gel_balls",
+    "imgUrl": "/img/gel_balls/gel_balls_pack9.png",
+    "productCode": 28579
+  },
+  {
+    "id": 40732,
+    "name": "Gel balls pack 10",
+    "price": 10,
+    "category": "gel_balls",
+    "imgUrl": "/img/gel_balls/gel_balls_pack10.png",
+    "productCode": 40732
+  },
+  {
+    "id": 52061,
+    "name": "Gel balls pack 11",
+    "price": 10,
+    "category": "gel_balls",
+    "imgUrl": "/img/gel_balls/gel_balls_pack11.png",
+    "productCode": 52061
+  },
+  {
+    "id": 52061,
+    "name": "Gel balls pack 11",
+    "price": 10,
+    "category": "popular",
+    "imgUrl": "/img/gel_balls/gel_balls_pack11.png",
+    "productCode": 52061
+  },
+  {
+    "id": 61830,
+    "name": "Gel balls pack 12",
+    "price": 10,
+    "category": "gel_balls",
+    "imgUrl": "/img/gel_balls/gel_balls_pack12.png",
+    "productCode": 61830
+  },
+  {
+    "id": 32710,
+    "name": "Gel balls pack 13",
+    "price": 10,
+    "category": "gel_balls",
+    "imgUrl": "/img/gel_balls/gel_balls_pack13.png",
+    "productCode": 32710
+  },
+  {
+    "id": 32710,
+    "name": "Gel balls pack 13",
+    "price": 10,
+    "category": "popular",
+    "imgUrl": "/img/gel_balls/gel_balls_pack13.png",
+    "productCode": 32710
+  },
+  {
+    "id": 84712,
+    "name": "Pink ball",
+    "price": 10,
+    "category": "gel_balls",
+    "imgUrl": "/img/gel_balls/gel_balls_pink.png",
+    "productCode": 84712
+  },
+  {
+    "id": 60391,
+    "name": "Printed balloons pack 1",
+    "price": 10,
+    "category": "printed_balloons",
+    "imgUrl": "/img/printed_balloons/printed_balloons_pack1.png",
+    "productCode": 60391
+  },
+  {
+    "id": 19428,
+    "name": "Printed balloons pack 2",
+    "price": 10,
+    "category": "printed_balloons",
+    "imgUrl": "/img/printed_balloons/printed_balloons_pack2.png",
+    "productCode": 19428
+  },
+  {
+    "id": 37206,
+    "name": "Printed balloons pack 3",
+    "price": 10,
+    "category": "printed_balloons",
+    "imgUrl": "/img/printed_balloons/printed_balloons_pack3.png",
+    "productCode": 37206
+  },
+  {
+    "id": 96240,
+    "name": "Printed balloons pack 4",
+    "price": 10,
+    "category": "printed_balloons",
+    "imgUrl": "/img/printed_balloons/printed_balloons_pack4.png",
+    "productCode": 96240
+  },
+  {
+    "id": 74325,
+    "name": "Printed balloon \"Hello Sunshine\"",
+    "price": 10,
+    "category": "printed_balloons",
+    "imgUrl": "/img/printed_balloons/printed_balloons_pack_hello_sunshine.png",
+    "productCode": 74325
+  },
+  {
+    "id": 89103,
+    "name": "Printed balloon \"Sun\"",
+    "price": 10,
+    "category": "printed_balloons",
+    "imgUrl": "/img/printed_balloons/printed_balloons_sun.png",
+    "productCode": 89103
+  },
+  {
+    "id": 20687,
+    "name": "Printed balloon \"Smile\"",
+    "price": 10,
+    "category": "printed_balloons",
+    "imgUrl": "/img/printed_balloons/printed_balloons_smile.png",
+    "productCode": 20687
+  },
+  {
+    "id": 49830,
+    "name": "Printed balloon \"Rainbow and cloud\"",
+    "price": 10,
+    "category": "printed_balloons",
+    "imgUrl": "/img/printed_balloons/printed_balloons_rainbow_and_cloud.png",
+    "productCode": 49830
+  },
+  {
+    "id": 67192,
+    "name": "Criminal pack",
+    "price": 10,
+    "category": "printed_balloons",
+    "imgUrl": "/img/printed_balloons/printed_balloons_criminal_pack.png",
+    "productCode": 67192
+  },
+  {
+    "id": 67192,
+    "name": "Criminal pack",
+    "price": 10,
+    "category": "popular",
+    "imgUrl": "/img/printed_balloons/printed_balloons_criminal_pack.png",
+    "productCode": 67192
+  },
+  {
+    "id": 71358,
+    "name": "Shaped balloons pack 1",
+    "price": 10,
+    "category": "shaped_balloons",
+    "imgUrl": "/img/shaped_balloons/shaped_balloons_foil_balls_pack1.png",
+    "productCode": 71358
+  },
+  {
+    "id": 85902,
+    "name": "Shaped balloons pack 2",
+    "price": 10,
+    "category": "shaped_balloons",
+    "imgUrl": "/img/shaped_balloons/shaped_balloons_foil_balls_pack2.png",
+    "productCode": 85902
+  },
+  {
+    "id": 18764,
+    "name": "Crema bear 1",
+    "price": 10,
+    "category": "soft_toys",
+    "imgUrl": "/img/soft_toys/soft_toys_crema_bear1.png",
+    "productCode": 18764
+  },
+  {
+    "id": 23059,
+    "name": "Crema bear 2",
+    "price": 10,
+    "category": "soft_toys",
+    "imgUrl": "/img/soft_toys/soft_toys_crema_bear2.png",
+    "productCode": 23059
+  }
 ]
