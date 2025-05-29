@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header id="header">
+        <a href="/"><img class="logo" src="/img/logo.png" alt="logo" /></a>
+        <nav class="headerNav">
+          <ul class="headerNav__list">
+            <li class="headerNav__item">
+              <a class="headerNav__link" href="/">Home</a>
+            </li>
+            <li class="headerNav__item">
+              <a class="headerNav__link" href="/pages/categories.html">Categories</a>
+            </li>
+            <li class="headerNav__item">
+              <a class="headerNav__link" href="/pages/about.html">About Us</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="pageLayout">
+          <aside class="asideMenu">
+            <nav class="categoryNav">
+              <h2 class="categoryNav__title">Categories</h2>
+              <ul class="categoryNav__list">
+                <li class="categoryNav__item">
+                  <a href="#" class="categoryNav__link">Popular</a>
+                </li>
+                <li class="categoryNav__item">
+                  <a href="#" class="categoryNav__link">New</a>
+                </li>
+                <li class="categoryNav__item">
+                  <a href="#" class="categoryNav__link">All</a>
+                </li>
+                <li class="categoryNav__item">
+                  <a href="#" class="categoryNav__link">Foil Balls</a>
+                </li>
+                <li class="categoryNav__item">
+                  <a href="#" class="categoryNav__link">Printed Balloons</a>
+                </li>
+                <li class="categoryNav__item">
+                  <a href="#" class="categoryNav__link">Shaped Balloons</a>
+                </li>
+                <li class="categoryNav__item">
+                  <a href="#" class="categoryNav__link">Gel Balls</a>
+                </li>
+                <li class="categoryNav__item">
+                  <a href="#" class="categoryNav__link">Soft Toys</a>
+                </li>
+              </ul>
+            </nav>
+          </aside>
+          <div class="mainContent">
+            <section>
+              <div id="productCards" class="productCards"></div>
+            </section>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <div class="footerGrid">
+        <div class="footerBox">
+          <div class="footerBox__title">Our work</div>
+          <div class="workSchedule">
+            <div class="workSchedule__item">
+              <div class="workSchedule__itemDay">Sunday</div>
+              <div class="workSchedule__itemTime">Closed</div>
+            </div>
+            <div class="workSchedule__item">
+              <div class="workSchedule__itemDay">Monday</div>
+              <div class="workSchedule__itemTime">09:00 - 18:00</div>
+            </div>
+            <div class="workSchedule__item">
+              <div class="workSchedule__itemDay">Tuesday</div>
+              <div class="workSchedule__itemTime">09:00 - 18:00</div>
+            </div>
+            <div class="workSchedule__item">
+              <div class="workSchedule__itemDay">Wednesday</div>
+              <div class="workSchedule__itemTime">09:00 - 18:00</div>
+            </div>
+            <div class="workSchedule__item">
+              <div class="workSchedule__itemDay">Thirsday</div>
+              <div class="workSchedule__itemTime">09:00 - 18:00</div>
+            </div>
+            <div class="workSchedule__item">
+              <div class="workSchedule__itemDay">Friday</div>
+              <div class="workSchedule__itemTime">09:00 - 18:00</div>
+            </div>
+            <div class="workSchedule__item">
+              <div class="workSchedule__itemDay">Saturday</div>
+              <div class="workSchedule__itemTime">09:00 - 15:00</div>
+            </div>
+          </div>
+        </div>
+        <div class="footerBox">
+          <div class="footerBox__title">E-mail</div>
+          <a href="mailto:ballszone7@gmail.com" class="footerBox__email"
+            >ballszone7@gmail.com</a
+          >
+        </div>
+        <div class="footerBox">
+          <div class="footerBox__title">Support</div>
+          <a href="tel:+380937597572" class="footerBox__phone"
+            >+380 93 759 75 72</a
+          >
+        </div>
+      </div>
+    </footer>
+    <button
+      onclick="topFunction()"
+      class="toTopBtn"
+      id="toTopBtn"
+      title="Go to top"
+    ></button>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

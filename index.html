@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header id="header">
+        <a href="/"><img class="logo" src="/img/logo.png" alt="logo" /></a>
+        <nav class="headerNav">
+          <ul class="headerNav__list">
+            <li class="headerNav__item">
+              <a class="headerNav__link" href="/">Home</a>
+            </li>
+            <li class="headerNav__item">
+              <a class="headerNav__link" href="/pages/categories.html"
+                >Categories</a
+              >
+            </li>
+            <li class="headerNav__item">
+              <a class="headerNav__link" href="/pages/about.html">About Us</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="pageLayout">
+          <aside class="asideMenu">
+            <nav class="categoryNav">
+              <h2 class="categoryNav__title">Categories</h2>
+              <ul class="categoryNav__list">
+                <li class="categoryNav__item">
+                  <a href="/pages/categories.html" class="categoryNav__link"
+                    >Popular</a
+                  >
+                </li>
+                <li class="categoryNav__item">
+                  <a href="/pages/categories.html" class="categoryNav__link"
+                    >New</a
+                  >
+                </li>
+                <li class="categoryNav__item">
+                  <a href="/pages/categories.html" class="categoryNav__link"
+                    >All</a
+                  >
+                </li>
+                <li class="categoryNav__item">
+                  <a href="/pages/categories.html" class="categoryNav__link"
+                    >Foil Balls</a
+                  >
+                </li>
+                <li class="categoryNav__item">
+                  <a href="/pages/categories.html" class="categoryNav__link"
+                    >Printed Balloons</a
+                  >
+                </li>
+                <li class="categoryNav__item">
+                  <a href="/pages/categories.html" class="categoryNav__link"
+                    >Shaped Balloons</a
+                  >
+                </li>
+                <li class="categoryNav__item">
+                  <a href="/pages/categories.html" class="categoryNav__link"
+                    >Gel Balls</a
+                  >
+                </li>
+                <li class="categoryNav__item">
+                  <a href="/pages/categories.html" class="categoryNav__link"
+                    >Soft Toys</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </aside>
+          <div class="mainContent">
+            <section>
+              <div id="productCategories" class="productCategories">
+                <div class="productCategoryCard">
+                  <a
+                    href="/pages/categories.html"
+                    onclick="setCurrentCategory('foil balls')"
+                  >
+                    <img
+                      class="productCategoryCard__img"
+                      src="/img/foil_balls/foil_balls_gold_star.png"
+                    />
+                    <div class="productCategoryCard__title">Foil Balls</div>
+                  </a>
+                </div>
+                <div class="productCategoryCard">
+                  <a
+                    href="/pages/categories.html"
+                    onclick="setCurrentCategory('printed balloons')"
+                  >
+                    <img
+                      class="productCategoryCard__img"
+                      src="/img/printed_balloons/printed_balloons_pack1.png"
+                    />
+                    <div class="productCategoryCard__title">
+                      Printed balloons
+                    </div>
+                  </a>
+                </div>
+                <div class="productCategoryCard">
+                  <a
+                    href="/pages/categories.html"
+                    onclick="setCurrentCategory('shaped balloons')"
+                  >
+                    <img
+                      class="productCategoryCard__img"
+                      src="/img/shaped_balloons/shaped_balloons_foil_balls_pack1.png"
+                    />
+                    <div class="productCategoryCard__title">
+                      Shaped balloons
+                    </div>
+                  </a>
+                </div>
+                <div class="productCategoryCard">
+                  <a
+                    href="/pages/categories.html"
+                    onclick="setCurrentCategory('gel balls')"
+                  >
+                    <img
+                      class="productCategoryCard__img"
+                      src="/img/gel_balls/gel_balls_gold.png"
+                    />
+                    <div class="productCategoryCard__title">Gel balls</div>
+                  </a>
+                </div>
+                <div class="productCategoryCard">
+                  <a
+                    href="/pages/categories.html"
+                    onclick="setCurrentCategory('soft toys')"
+                  >
+                    <img
+                      class="productCategoryCard__img"
+                      src="/img/soft_toys/soft_toys_crema_bear1.png"
+                    />
+                    <div class="productCategoryCard__title">Soft toys</div>
+                  </a>
+                </div>
+              </div>
+            </section>
+            <section>
+              <div id="weRecomend" class="weRecomend">
+                <h3 class="weRecomend__title">We recomend</h3>
+                <div class="productCard">
+                  <div class="productCard__code">Code: <span>36172</span></div>
+                  <img
+                    src="/img/foil_balls/foil_balls_rocket.png"
+                    alt="Rocket ball"
+                    class="productCard__img"
+                  />
+                  <div class="productCard__title"><span>Rocket ball</span></div>
+                  <div class="productCard__price"><span>10</span></div>
+                  <button class="productCard__btn" onclick="buyProduct()">
+                    Buy
+                  </button>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <div class="footerGrid">
+        <div class="footerBox">
+          <div class="footerBox__title">Our work</div>
+          <div class="workSchedule">
+            <div class="workSchedule__item">
+              <div class="workSchedule__itemDay">Sunday</div>
+              <div class="workSchedule__itemTime">Closed</div>
+            </div>
+            <div class="workSchedule__item">
+              <div class="workSchedule__itemDay">Monday</div>
+              <div class="workSchedule__itemTime">09:00 - 18:00</div>
+            </div>
+            <div class="workSchedule__item">
+              <div class="workSchedule__itemDay">Tuesday</div>
+              <div class="workSchedule__itemTime">09:00 - 18:00</div>
+            </div>
+            <div class="workSchedule__item">
+              <div class="workSchedule__itemDay">Wednesday</div>
+              <div class="workSchedule__itemTime">09:00 - 18:00</div>
+            </div>
+            <div class="workSchedule__item">
+              <div class="workSchedule__itemDay">Thirsday</div>
+              <div class="workSchedule__itemTime">09:00 - 18:00</div>
+            </div>
+            <div class="workSchedule__item">
+              <div class="workSchedule__itemDay">Friday</div>
+              <div class="workSchedule__itemTime">09:00 - 18:00</div>
+            </div>
+            <div class="workSchedule__item">
+              <div class="workSchedule__itemDay">Saturday</div>
+              <div class="workSchedule__itemTime">09:00 - 15:00</div>
+            </div>
+          </div>
+        </div>
+        <div class="footerBox">
+          <div class="footerBox__title">E-mail</div>
+          <a href="mailto:ballszone7@gmail.com" class="footerBox__email"
+            >ballszone7@gmail.com</a
+          >
+        </div>
+        <div class="footerBox">
+          <div class="footerBox__title">Support</div>
+          <a href="tel:+380937597572" class="footerBox__phone"
+            >+380 93 759 75 72</a
+          >
+        </div>
+      </div>
+    </footer>
+    <button
+      onclick="topFunction()"
+      class="toTopBtn"
+      id="toTopBtn"
+      title="Go to top"
+    ></button>
+    <script src="/js/sweetalert2.all.min.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
