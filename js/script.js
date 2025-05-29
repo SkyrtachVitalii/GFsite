@@ -81,7 +81,6 @@ function getCurrentCategory() {
 }
 
 function buyProduct() {
-  console.log("Product added to cart!");
   Swal.fire({
     title: "Buy!",
     icon: "success",
