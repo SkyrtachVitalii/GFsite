@@ -17,7 +17,6 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 (async () => {
-  console.log("Current category - ", getCurrentCategory());
   if (getCurrentCategory() === null || getCurrentCategory() === undefined) {
     setCurrentCategory("all");
   }
