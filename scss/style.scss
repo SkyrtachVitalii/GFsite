@@ -230,6 +230,13 @@ footer {
   &__title {
     font-size: 18px;
     text-transform: uppercase;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  &__item {
     margin-bottom: 16px;
   }
   &__email {
@@ -293,5 +300,52 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 16px;
+  }
+}
+
+.law {
+  display: grid;
+  grid-template-columns: 1fr;
+  & h1 {
+    font-size: 32px;
+    margin: 24px 0;
+    text-transform: uppercase;
+    line-height: 1.1;
+    text-align: center;
+  }
+
+  & h2 {
+    font-size: 28px;
+    margin: 14px 0;
+    text-transform: uppercase;
+    line-height: 1.1;
+    & + p {
+      margin-top: 0;
+    }
+  }
+
+  & p {
+    font-size: 16px;
+    margin: 16px 0;
+    line-height: 1.1;
+    & + ul {
+      margin-top: 0;
+    }
+  }
+
+  & ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  & li {
+    line-height: 1.1;
+  }
+  & a {
+    color: #b86b3b;
+    &:hover{
+      color: #f86f1c;
+    }
   }
 }
